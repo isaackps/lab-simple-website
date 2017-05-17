@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+.line {
+  width: auto;
+  height: 5px;
+  background-color: black;
+  position: center;
+  margin: 30px auto;
+}
+.describe{
+margin: 50px auto;
+}
+#about {
+  font-style: italic;
+}
+#portfolio {
+  font-style: italic;
+}
+.social li:not(:first-child):before {
+    content: " | ";
+    font-weight: normal;
+    position: center;
+}
+.navigation li:not(:first-child):before {
+    content: " | ";
+    font-weight: normal;
+    position: center;
+}
+a {
+  color: black;
+}
+h1 {
+  text-transform: uppercase;
+  margin: -10px;
+  font-size: 40px;
+}
+.thinline {
+  width: 700px;
+  height: 1px;
+  background-color: black;
+  position: center;
+  margin: 40px auto;
+}
+.avatar {
+  float: right;
+  width: 250px;
+  padding: 5px;
+  border: 1px solid;
+  border-color: black;
+
+}
+.mainpart{
+  clear: left;
+  margin: auto;
+  max-width: 650px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.mainpartP {
+  margin: auto;
+  max-width: 600px;
+}
+p {
+  text-align: left;
+  font-family: serif;
+  font-size: 18px;
+}
+h3 {
+  text-align: left;
+  font-size: 16px;
+}
+.navigation li {
+  display: inline;
+  font-weight: bold;
+}
+.social li {
+  display: inline;
+  font-weight: bold;
+}
+ li {
+   text-align: left;
+ }
+.portfolioImage {
+  text-align: center;
+  margin: 20px auto;
+}
+h2 {
+  text-align: left;
+}
+.webD {
+  font-weight: bold;
+  font-style: italic;
+}
+.dateTill {
+  font-size: 14px;
+}
+.edu {
+  font-weight: bold;
+  font-style: italic;
+}
+/*to remove the default padding that makes the menubar move to the right*/
+ul {
+  padding: 0;
+}

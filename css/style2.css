@@ -1,0 +1,94 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*to set the default padding and margin to 0*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*Header*/
+.wrapper {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  border-top: 5px #000 solid;
+}
+
+header ul {
+  padding-left: 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li:first-child {
+  border-right: 1px #000 solid;
+  padding-right: 10px;
+}
+header ul li:last-child {
+  border-left: 1px #000 solid;
+  padding-left: 10px;
+}
+
+header ul li.active {
+  font-style: italic;
+}
+
+header ul li a {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+/*Main*/
+main {
+  height: 400px;
+  border-top: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+main div {
+  padding: 40px;
+}
+
+main .about {
+  width: 60%;
+  display: inline-block;
+  float: left;
+}
+
+main .profile {
+  width: 40%;
+  display: inline-block;
+  float: right;
+}
+
+main .profile img {
+  width: 100%;
+  height: auto;
+  border: 1px #000 solid;
+  padding: 5px;
+}
+
+.clearfloat {
+  clear: both;
+}
